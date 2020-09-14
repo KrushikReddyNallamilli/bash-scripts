@@ -5,7 +5,7 @@ read N
 a=0  
 b=1 
 
-echo "The Fibonacci series is : "
+echo "The Prime Fibonacci series is : "
 echo -n " $a   $b "
 for (( i=0; i<=N-2; i++ ))	
 do
