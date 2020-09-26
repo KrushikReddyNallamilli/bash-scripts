@@ -9,9 +9,9 @@ do
 	reverse=`expr $reverse \* 10 + $rem`
 	num=`expr $num / 10`
 done
-if [ $num -eq $reverse ]
+if [ $num1 -eq $reverse ]
 then 
 	echo "Palindrome"
 else
-	echo "Not a plaindrome"
+	echo "Not a palindrome"
 fi
